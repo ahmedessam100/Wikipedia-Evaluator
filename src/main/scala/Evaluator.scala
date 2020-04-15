@@ -41,6 +41,7 @@ object Evaluator {
                                 .sortBy(wikiToken=>wikiToken.length, ascending = false)
                                 .sample(withReplacement = false, fraction = 0.01)
                                 .keyBy(wikiToken=>wikiToken.length)
+                                .groupByKey.mapValues(_.toList)
 
     wikiDataSortedByLength
       .collect

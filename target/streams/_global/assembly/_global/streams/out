@@ -6,7 +6,7 @@
 [0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-streaming/pom.properties' with strategy 'discard'[0m
 [0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.hadoop/hadoop-streaming/pom.xml' with strategy 'discard'[0m
 [0m[[0m[33mwarn[0m] [0m[0mStrategy 'discard' was applied to 3 files[0m
-[0m[[0m[0minfo[0m] [0m[0mSHA-1: 63522a77739f56d06ec9cefe1be462aa2413e035[0m
+[0m[[0m[0minfo[0m] [0m[0mSHA-1: f8c568640b3f177e83f745379918d3964b7b763d[0m
 [0m[[0m[0mdebug[0m] [0m[0mPackaging /home/ahmed/IdeaProjects/Evaluator/target/scala-2.11/Language-Evaluator-0.1.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	main/Evaluator$$anonfun$1.class[0m
@@ -23,6 +23,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/ahmed/IdeaProjects/Evaluator/target/streams/_global/assemblyOption/_global/streams/assembly/18f1de612fba937928d9c6d0de1242f63cf10d7b_dir/main/Evaluator$$anonfun$6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	main/Evaluator$$anonfun$7.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/ahmed/IdeaProjects/Evaluator/target/streams/_global/assemblyOption/_global/streams/assembly/18f1de612fba937928d9c6d0de1242f63cf10d7b_dir/main/Evaluator$$anonfun$7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main/Evaluator$$anonfun$8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ahmed/IdeaProjects/Evaluator/target/streams/_global/assemblyOption/_global/streams/assembly/18f1de612fba937928d9c6d0de1242f63cf10d7b_dir/main/Evaluator$$anonfun$8.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	main/Evaluator$$anonfun$main$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/ahmed/IdeaProjects/Evaluator/target/streams/_global/assemblyOption/_global/streams/assembly/18f1de612fba937928d9c6d0de1242f63cf10d7b_dir/main/Evaluator$$anonfun$main$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	main/Evaluator$.class[0m
