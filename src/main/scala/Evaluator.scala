@@ -18,7 +18,8 @@ object Evaluator {
     jobConf.set("stream.recordreader.class", "org.apache.hadoop.streaming.StreamXmlRecordReader")
     jobConf.set("stream.recordreader.begin", "<page>")
     jobConf.set("stream.recordreader.end", "</page>")
-    FileInputFormat.addInputPaths(jobConf, "file:///home/ahmed/Data/WikiPages_BigData.xml")
+    val path = "file:///home/ahmed/Data/WikiPages_BigData.xml"
+    FileInputFormat.addInputPaths(jobConf, path)
 
     val wikiDocuments = sc.hadoopRDD(jobConf,
       classOf[org.apache.hadoop.streaming.StreamInputFormat],
@@ -41,7 +42,7 @@ object Evaluator {
                                 .sortBy(wikiToken=>wikiToken.length, ascending = false)
                                 .sample(withReplacement = false, fraction = 0.01)
                                 .keyBy(wikiToken=>wikiToken.length)
-                                .groupByKey.mapValues(_.toList)
+//                                .groupByKey.mapValues(_.toList)
 
     wikiDataSortedByLength
       .collect
